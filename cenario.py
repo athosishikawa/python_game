@@ -9,7 +9,6 @@ class Cenario:
         self.objetoX = random.randint(0,8)
         self.objetoY = random.randint(-20,0)
    
-   
 
     def moverObjetoCenario(self, cont, speedRace, listaCenario):
         if cont % speedRace == 0:
